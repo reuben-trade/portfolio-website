@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "title": "Sample Project 1",
+      "description": "A sample project description",
+      "long_description": "This is a longer description of the sample project with more details about implementation and features.",
+      "technologies": ["Python", "FastAPI", "React", "TypeScript"],
+      "video_url": "",
+      "demo_url": "",
+      "github_url": "",
+      "featured": true
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Sample Company",
+      "position": "Software Engineer",
+      "description": "Working on exciting projects",
+      "location": "Remote",
+      "start_date": "2023-01-01",
+      "current": true,
+      "technologies": ["Python", "JavaScript", "React"],
+      "achievements": [
+        "Built scalable applications",
+        "Improved system performance"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Sample Achievement",
+      "description": "Description of the achievement",
+      "category": "Education",
+      "date": "2023-01-01"
+    }
+  ]
+}

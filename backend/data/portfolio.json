@@ -1,0 +1,410 @@
+{
+  "personal": {
+    "name": "Reuben Stanley",
+    "title": "Backend Developer & AI Engineer",
+    "bio": "Honours Advanced Computer Science student (AI) at UWA with extensive experience building production-grade AI systems. Specialized in end-to-end AI/ML development, including data collection, model training, backend orchestration, and on-device inference. Proven track record delivering high-impact solutions—e.g., reducing semantic search latency from 180s to <7s and improving accuracy to near 100%, and launching a security-alert MVP in 4 weeks that cut false positives. Multiple-time hackathon winner and VentureUWA incubator founder focused on ML applications that drive tangible business or social impact.",
+    "location": "Perth, Western Australia",
+    "email": "reubenjstanley@gmail.com",
+    "phone": "0422 946 817",
+    "github": "https://github.com/reuben-trade",
+    "linkedin": "https://www.linkedin.com/in/reubenstanley/"
+  },
+  "skills": {
+    "languages": ["Python", "C++", "JavaScript"],
+    "backend": ["FastAPI", "Flask", "Django", "WebRTC", "Node.js"],
+    "ai_ml": ["TensorFlow", "PyTorch", "Text & Image Embeddings", "Computer Vision", "Facial Recognition", "NLP", "Bayesian Agents", "Evolutionary Algorithms", "Model Deployment", "On-device Inference"],
+    "hpc": ["OpenMP", "MPI", "Setonix Supercomputer"],
+    "tools_platforms": ["Git", "Docker", "Railway", "Google Cloud Platform", "AWS", "OpenCV"],
+    "databases": ["PostgreSQL", "Redis", "Vector Databases"]
+  },
+  "projects": [
+    {
+      "id": "cosineone-security-alerts",
+      "title": "CosineOne - AI Security Alert System",
+      "description": "Full-stack application providing real-time, AI-powered security alerts with 4-week MVP delivery that dramatically reduced false positives for security hardware partners.",
+      "long_description": "Co-founded and developed a full-stack application (FastAPI backend, plain JavaScript frontend) in just 4 weeks to provide real-time, AI-powered security alerts through both a frontend overlay and Telegram bot. Engineered a sophisticated system using private, local ML models to identify and validate custom alerts (e.g., 'person in backyard'), dramatically reducing false positives for security hardware partners. The system processes video streams in real-time and applies custom ML models for intelligent alert validation.",
+      "tech_stack": ["Python", "FastAPI", "JavaScript", "Machine Learning", "Computer Vision", "Telegram Bot API", "Local ML Models"],
+      "highlights": [
+        "Delivered production MVP in 4 weeks from concept to deployment",
+        "Dramatically reduced false positives using custom ML validation",
+        "Built both frontend overlay and Telegram bot interfaces",
+        "Engineered system using private, local ML models for security",
+        "Co-founded company as Lead Backend Developer"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": true,
+      "date": "2025-07"
+    },
+    {
+      "id": "mybigbrain-semantic-search",
+      "title": "MyBigBrain - Semantic Camera Roll Search",
+      "description": "Re-architected backend for semantic camera-roll search, reducing average search latency from 180s to <7s (96% decrease) and achieving near-100% retrieval accuracy.",
+      "long_description": "Led complete backend re-architecture for a semantic camera-roll search application, achieving a 96% reduction in average search latency from 180 seconds to under 7 seconds while improving retrieval accuracy to near-100%. Implemented sophisticated text/image embedding pipelines, face/object tagging systems, and optimized inference paths to meet production SLO requirements. Authored a reusable Python library to instantiate AI agents and integrate LLM tools for conversational photo search, enabling users to find photos through natural language queries.",
+      "tech_stack": ["Python", "FastAPI", "Text Embeddings", "Image Embeddings", "Facial Recognition", "Computer Vision", "LLM Integration", "Vector Search"],
+      "highlights": [
+        "Reduced search latency by 96% (from 180s to <7s)",
+        "Achieved near-100% retrieval accuracy",
+        "Implemented text/image embedding pipelines",
+        "Built face/object tagging and recognition system",
+        "Created reusable Python library for AI agent instantiation",
+        "Optimized inference paths to meet production SLO"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": true,
+      "date": "2025-04"
+    },
+    {
+      "id": "eco-home-ai-crm",
+      "title": "Eco Home Group - AI-Driven CRM & Job Optimization",
+      "description": "Designed AI-driven CRM that automated job booking and communications, with optimization algorithms that eliminated manual scheduling and reduced worker idle/travel time.",
+      "long_description": "Designed and implemented an AI-driven CRM system for a UK-based company that automated job booking and communications across multiple crews. Built a sophisticated job allocation algorithm using Google Maps API to optimize worker routing, scheduling, and travel time, significantly reducing expected idle/travel time per job and completely eliminating manual scheduling overhead. Deployed an AI phone receptionist and automated email/messaging flows for customer confirmations, creating a seamless end-to-end customer experience.",
+      "tech_stack": ["Python", "AI/ML", "Google Maps API", "CRM Systems", "Automation", "Voice AI", "Email Automation"],
+      "highlights": [
+        "Automated entire job booking and communication workflow",
+        "Built optimization algorithm for worker routing and scheduling",
+        "Reduced idle/travel time per job through intelligent allocation",
+        "Eliminated manual scheduling completely",
+        "Deployed AI phone receptionist for customer interactions",
+        "Implemented automated email/messaging confirmation flows"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": true,
+      "date": "2025-01"
+    },
+    {
+      "id": "spectrasync-led-ml",
+      "title": "SpectraSync - Audio-Responsive LED ML Model",
+      "description": "Trained and deployed ML model for embedded LED hardware to generate ideal audio-responsive lightshows, successfully porting to low-power embedded systems.",
+      "long_description": "Trained and deployed a machine learning model to generate 'ideal' audio-responsive lightshows for embedded LED hardware. Gathered and processed a large-scale training dataset by modifying embedded C++ source code on prototype devices. Trained the model on external GPUs and successfully ported it to run efficiently on low-power embedded hardware, demonstrating expertise in both high-performance training and resource-constrained deployment.",
+      "tech_stack": ["Machine Learning", "C++", "Embedded Systems", "PyTorch", "GPU Training", "On-device Inference", "Audio Processing"],
+      "highlights": [
+        "Trained ML model for audio-responsive LED lightshows",
+        "Modified embedded C++ code to gather training data",
+        "Trained on external GPUs for optimal performance",
+        "Successfully ported model to low-power embedded hardware",
+        "Achieved real-time inference on resource-constrained devices"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": false,
+      "date": "2023-12"
+    },
+    {
+      "id": "genvis-hackathon-winner",
+      "title": "Genvis Hackathon Winner - Empathetic AI Voice Agent",
+      "description": "1st place winner: Led team to build privacy-first AI voice agent that auto-fills legal/medical forms from victim accounts, addressing ethical and legal constraints.",
+      "long_description": "Led a team to 1st place victory by building an empathetic AI voice agent that auto-fills legal and medical forms from victim accounts. Implemented privacy-first speech pipelines, intelligent form mapping, and guided UX design while carefully addressing ethical and legal constraints for sensitive data handling. The solution demonstrates technical excellence in voice AI while maintaining the highest standards for privacy and empathy in sensitive contexts.",
+      "tech_stack": ["Voice AI", "Speech-to-Text", "NLP", "Privacy-First Architecture", "Form Automation", "Python"],
+      "highlights": [
+        "1st place winner at Genvis Hackathon",
+        "Led team to build empathetic AI for sensitive use cases",
+        "Implemented privacy-first speech pipelines",
+        "Built intelligent form mapping and auto-fill system",
+        "Addressed complex ethical and legal constraints",
+        "Designed guided UX for sensitive data handling"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": true,
+      "date": "2025-01"
+    },
+    {
+      "id": "koalawala-speech-therapy",
+      "title": "KoalaWala - ML-Powered Speech Therapy App (1st Place)",
+      "description": "1st place at Spacecubed Hackathon: Led 7-person team to prototype ML-powered speech therapy app, securing interest from therapists and seed investment offer.",
+      "long_description": "Led a 7-person team to 1st place at Spacecubed Student Hackathon by prototyping and pitching 'KoalaWala', an ML-powered speech therapy app, in a single weekend. Developed a full-stack application with an ML model to identify and analyze phoneme pronunciation. Secured interest from multiple speech therapists and received a post-competition offer for seed investment (which was declined to continue studies). The rapid prototype demonstrated both technical capability and market validation.",
+      "tech_stack": ["Machine Learning", "Speech Recognition", "Phoneme Analysis", "Full-stack Development", "Python"],
+      "highlights": [
+        "1st place winner at Spacecubed Student Hackathon",
+        "Led 7-person team through rapid prototyping",
+        "Built ML model for phoneme pronunciation analysis",
+        "Secured interest from multiple speech therapists",
+        "Received seed investment offer post-competition",
+        "Completed full prototype in single weekend"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": true,
+      "date": "2024-01"
+    },
+    {
+      "id": "battle-of-bots-big-two",
+      "title": "Battle of the Bots - Autonomous Card Game AI (3rd Place)",
+      "description": "3rd place nationally: Developed autonomous agent for 'Big Two' card game using adversarial search and probabilistic evaluation, competing against 26 teams.",
+      "long_description": "Placed 3rd among 26 teams nationally in Battle of the Bots competition by developing an autonomous agent for the card game 'Big Two' using adversarial search and probabilistic evaluation. Built as a solo developer, the agent demonstrates sophisticated game theory implementation and efficient search algorithms to make optimal decisions under uncertainty.",
+      "tech_stack": ["Python", "Game AI", "Adversarial Search", "Probabilistic Evaluation", "Game Theory"],
+      "highlights": [
+        "3rd place nationally (26 teams)",
+        "Solo developer achievement",
+        "Implemented adversarial search algorithms",
+        "Built probabilistic evaluation system",
+        "Applied game theory for optimal decision-making"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": false,
+      "date": "2024-01"
+    },
+    {
+      "id": "brightwater-senior-calling-app",
+      "title": "Brightwater Hackathon - Voice-Controlled Calling App",
+      "description": "Led 5-person team to build end-to-end, voice-controlled calling app for seniors using WebRTC, gaining traction with aged care companies.",
+      "long_description": "Led a 5-person team to build an end-to-end, voice-controlled calling app for seniors using WebRTC and Node.js. Managed the team, conducted user testing with 20+ prototypes, and gained significant traction with aged care companies. The solution addressed real accessibility challenges for elderly users through intuitive voice interfaces.",
+      "tech_stack": ["WebRTC", "Node.js", "Voice Control", "JavaScript", "Full-stack Development"],
+      "highlights": [
+        "Led 5-person development team",
+        "Built complete voice-controlled calling solution",
+        "User-tested with 20+ prototypes",
+        "Gained traction with aged care companies",
+        "Implemented WebRTC for real-time communication"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "Backend",
+      "featured": false,
+      "date": "2024-01"
+    },
+    {
+      "id": "rio-tinto-computer-vision",
+      "title": "Rio Tinto Hackathon - Autonomous Vehicle Path Planning",
+      "description": "Developed computer vision solution to read closed-source route planning system using vector math for autonomous vehicle paths, earning offer for continued development.",
+      "long_description": "Developed a computer vision solution to read a closed-source route planning system, using vector math to plot autonomous vehicle paths. The innovative approach to reverse-engineering and path planning earned an offer for a part-time role to develop the system further, demonstrating practical problem-solving in industrial contexts.",
+      "tech_stack": ["Computer Vision", "Python", "OpenCV", "Vector Math", "Path Planning"],
+      "highlights": [
+        "Developed CV solution for closed-source system reading",
+        "Implemented vector math for autonomous path planning",
+        "Received offer for part-time role continuation",
+        "Applied to real-world industrial use case"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "AI/ML",
+      "featured": false,
+      "date": "2024-01"
+    },
+    {
+      "id": "convolution-optimization-hpc",
+      "title": "High-Performance Convolution Library",
+      "description": "Created highly optimized C library for performing convolutions on images across multiple nodes in high-performance computing clusters.",
+      "long_description": "Developed a highly optimized C library for performing image convolutions across multiple nodes in high-performance computing clusters using OpenMP and MPI. The implementation demonstrates deep understanding of parallel computing, memory optimization, and distributed systems. Achieved significant performance gains through careful optimization of memory access patterns and inter-node communication.",
+      "tech_stack": ["C", "OpenMP", "MPI", "High-Performance Computing", "Parallel Programming", "Setonix Supercomputer"],
+      "highlights": [
+        "Built highly optimized convolution library in C",
+        "Implemented multi-node parallel processing",
+        "Used OpenMP and MPI for distributed computing",
+        "Optimized for HPC cluster performance",
+        "Deployed on Setonix Supercomputer"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "Backend",
+      "featured": false,
+      "date": "2024-01"
+    },
+    {
+      "id": "algorithmic-trading-systems",
+      "title": "Quantitative Trading Systems",
+      "description": "Developed and backtested quantitative trading strategies, achieving 2nd place in QFin x Etoro Trading Competition using algorithmic approaches.",
+      "long_description": "Developed and backtested quantitative trading strategies for algorithmic trading. Utilized sophisticated algorithmic approaches to trade commodities in the QFin x Etoro Trading Competition, achieving a close 2nd place finish. The work demonstrates strong understanding of financial markets, statistical analysis, and algorithmic decision-making under uncertainty.",
+      "tech_stack": ["Python", "Algorithmic Trading", "Quantitative Analysis", "Statistical Modeling", "Backtesting"],
+      "highlights": [
+        "2nd place in QFin x Etoro Trading Competition",
+        "Developed algorithmic trading strategies",
+        "Implemented backtesting frameworks",
+        "Applied statistical modeling to financial markets"
+      ],
+      "video_url": null,
+      "github_url": null,
+      "demo_url": null,
+      "category": "Backend",
+      "featured": false,
+      "date": "2024-01"
+    }
+  ],
+  "experience": [
+    {
+      "id": "cosineone-cofounder",
+      "company": "CosineOne",
+      "role": "Lead Backend Developer, Co-founder",
+      "duration": "July 2025 - September 2025",
+      "location": "Perth, Australia",
+      "description": "Co-founded and led backend development for AI-powered security alert system, delivering production MVP in 4 weeks.",
+      "responsibilities": [
+        "Architected and developed full-stack application with FastAPI backend and JavaScript frontend",
+        "Engineered real-time AI-powered security alert system with multiple delivery channels",
+        "Implemented private, local ML models for custom alert validation",
+        "Built both frontend overlay and Telegram bot interfaces",
+        "Managed technical roadmap and product development as co-founder"
+      ],
+      "achievements": [
+        "Delivered production MVP in just 4 weeks from concept to deployment",
+        "Dramatically reduced false positives for security hardware partners using ML validation",
+        "Built scalable system processing real-time video streams with custom alert logic",
+        "Successfully validated product with multiple security hardware partners"
+      ],
+      "tech_stack": ["Python", "FastAPI", "JavaScript", "Machine Learning", "Computer Vision", "Telegram Bot API", "Local ML Models"]
+    },
+    {
+      "id": "mybigbrain-backend-ai",
+      "company": "MyBigBrain Pty Ltd",
+      "role": "Backend Developer & AI Engineer (Contract)",
+      "duration": "April 2025 - August 2025",
+      "location": "Remote",
+      "description": "Re-architected semantic search backend, achieving 96% latency reduction and near-perfect accuracy for camera-roll search application.",
+      "responsibilities": [
+        "Led complete backend re-architecture for semantic camera-roll search application",
+        "Designed and implemented text/image embedding pipelines",
+        "Built face/object tagging and recognition systems",
+        "Optimized inference paths to meet production SLO requirements",
+        "Developed Python library for AI agent instantiation and LLM tool integration"
+      ],
+      "achievements": [
+        "Reduced average search latency from 180s to <7s (96% improvement)",
+        "Improved retrieval accuracy to near-100%",
+        "Cut median response time to meet production SLO",
+        "Authored reusable library enabling conversational photo search",
+        "Implemented efficient embedding pipelines for large-scale image processing"
+      ],
+      "tech_stack": ["Python", "FastAPI", "Text Embeddings", "Image Embeddings", "Facial Recognition", "Computer Vision", "LLM Integration"]
+    },
+    {
+      "id": "eco-home-group-ai",
+      "company": "Eco Home Group",
+      "role": "AI Developer & Full-stack Engineer (Contract)",
+      "duration": "January 2025 - April 2025",
+      "location": "Remote (UK Client)",
+      "description": "Designed AI-driven CRM system automating job booking, routing optimization, and customer communications for multi-crew operations.",
+      "responsibilities": [
+        "Designed and implemented AI-driven CRM for job booking automation",
+        "Developed job allocation algorithm using Google Maps API",
+        "Built optimization system for worker routing and scheduling",
+        "Deployed AI phone receptionist for customer interactions",
+        "Implemented automated email and messaging flows for confirmations"
+      ],
+      "achievements": [
+        "Automated entire job booking and communications workflow",
+        "Reduced expected idle/travel time per job through intelligent routing",
+        "Eliminated manual scheduling completely",
+        "Built end-to-end customer experience automation",
+        "Optimized multi-crew operations across geographic regions"
+      ],
+      "tech_stack": ["Python", "AI/ML", "Google Maps API", "CRM Systems", "Voice AI", "Email Automation"]
+    },
+    {
+      "id": "spectrasync-ml-engineer",
+      "company": "SpectraSync",
+      "role": "ML Engineer (Contract)",
+      "duration": "December 2023 - March 2024",
+      "location": "Remote",
+      "description": "Trained and deployed ML model for embedded LED hardware, achieving efficient on-device inference for audio-responsive lightshows.",
+      "responsibilities": [
+        "Trained ML model to generate audio-responsive lightshows",
+        "Modified embedded C++ source code on prototype devices for data collection",
+        "Gathered and processed large-scale training dataset",
+        "Trained models on external GPUs for optimal performance",
+        "Ported trained model to run on low-power embedded hardware"
+      ],
+      "achievements": [
+        "Successfully deployed ML model on resource-constrained embedded devices",
+        "Achieved real-time audio-responsive inference on low-power hardware",
+        "Built end-to-end pipeline from data collection to deployment",
+        "Optimized model for embedded systems without sacrificing quality"
+      ],
+      "tech_stack": ["Machine Learning", "C++", "Embedded Systems", "PyTorch", "GPU Training", "On-device Inference"]
+    },
+    {
+      "id": "workair-web-dev",
+      "company": "WorkAir Technologies Pty Ltd & Freudenburg Technologies",
+      "role": "Web Developer & Digital Marketing",
+      "duration": "March 2024 - December 2024",
+      "location": "Perth, Australia",
+      "description": "Led web development and digital marketing for product launches for both mid-sized engineering company and German multinational corporation.",
+      "responsibilities": [
+        "Developed product websites for 'Freezebrain' and 'Scavenger Snorkels' launches",
+        "Managed digital marketing campaigns (Facebook Ads, SEO)",
+        "Initially recruited for predictive maintenance system development",
+        "Worked with tight timelines and strict design/quality requirements",
+        "Coordinated between mid-sized company and multinational corporation"
+      ],
+      "achievements": [
+        "Successfully launched two major product websites on schedule",
+        "Managed digital marketing campaigns driving product awareness",
+        "Delivered high-quality work meeting strict corporate design standards",
+        "Transitioned effectively between technical ML work and web development"
+      ],
+      "tech_stack": ["Web Development", "JavaScript", "Digital Marketing", "SEO", "Facebook Ads"]
+    },
+    {
+      "id": "apollo-healthcare-web",
+      "company": "Apollo Healthcare Technologies",
+      "role": "Web Developer & Marketing",
+      "duration": "March 2022 - July 2023",
+      "location": "Perth, Australia",
+      "description": "Developed marketing materials and maintained e-commerce platform for healthcare technology distributor.",
+      "responsibilities": [
+        "Developed marketing materials for healthcare products",
+        "Maintained e-commerce platform serving hospitals and aged care facilities",
+        "Communicated complex medical technology benefits to healthcare providers",
+        "Created value propositions justifying premium pricing"
+      ],
+      "achievements": [
+        "Successfully marketed complex medical devices to healthcare sector",
+        "Maintained reliable e-commerce platform for critical healthcare supplies",
+        "Built strong understanding of healthcare industry requirements"
+      ],
+      "tech_stack": ["Web Development", "E-commerce", "Marketing", "Healthcare IT"]
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": "semantic-search-optimization",
+      "title": "Optimizing Semantic Search: From 180s to <7s",
+      "slug": "semantic-search-optimization",
+      "excerpt": "A deep dive into re-architecting a semantic search system, covering embedding pipelines, inference optimization, and achieving 96% latency reduction while maintaining near-perfect accuracy.",
+      "date": "2025-08-15",
+      "category": "AI/ML",
+      "tags": ["Semantic Search", "Embeddings", "Performance Optimization", "Production ML"],
+      "featured": true
+    },
+    {
+      "id": "local-ml-models-security",
+      "title": "Building Privacy-First AI Systems with Local ML Models",
+      "slug": "local-ml-models-security",
+      "excerpt": "How we built a real-time security alert system using private, local ML models to dramatically reduce false positives while maintaining user privacy and data security.",
+      "date": "2025-09-20",
+      "category": "AI/ML",
+      "tags": ["Privacy", "Local ML", "Computer Vision", "Security", "On-device Inference"],
+      "featured": true
+    },
+    {
+      "id": "ml-embedded-systems",
+      "title": "Deploying ML Models on Embedded Hardware",
+      "slug": "ml-embedded-systems",
+      "excerpt": "Lessons learned from training ML models on GPUs and porting them to run efficiently on low-power embedded devices for real-time audio-responsive applications.",
+      "date": "2024-03-10",
+      "category": "AI/ML",
+      "tags": ["Embedded Systems", "Model Optimization", "On-device ML", "PyTorch"],
+      "featured": false
+    }
+  ]
+}

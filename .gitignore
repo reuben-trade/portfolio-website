@@ -79,7 +79,7 @@ target/
 .ipynb_checkpoints
 
 # IPython
-profile_default/
+profile_default//home/r/Desktop/Business/MBB
 ipython_config.py
 
 # pyenv
